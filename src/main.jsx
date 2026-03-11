@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home.jsx';
 import NotFound from './pages/NotFound.jsx';
-import QualityStandard from './pages/QualityStandard.jsx';
+import Team from './pages/Team.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,8 +21,8 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path:"/Quailtystandart",
-        element:<QualityStandard/>
+        path:"/teem",
+        element:<Team/>
       }
 
     ]
