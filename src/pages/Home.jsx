@@ -66,42 +66,7 @@ export default function FoodLanding() {
     <div>
   
       {/* ── NAVBAR ── */}
-      <div className={`navbar fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-4 md:px-10 ${scrolled ? "bg-white/96 backdrop-blur-lg shadow-lg py-1" : "bg-transparent py-3"}`}>
-        {/* Logo */}
-        <div className="navbar-start">
-          <div className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-full flex items-center justify-center" style={{ background: "linear-gradient(135deg,#2d6a4f,#57a85e)" }}>
-              <FaLeaf className="text-white" size={15} />
-            </div>
-            <span className="font-playfair font-black text-xl text-gray-900">
-              Fresh<span className="text-green-700">Organic</span>
-            </span>
-          </div>
-        </div>
-
-        {/* Desktop links */}
-        <div className="navbar-center hidden lg:flex">
-          <ul className="flex items-center gap-8">
-            {NAV_LINKS.map(l => <li key={l}><a href="#" className="nav-item text-gray-700">{l}</a></li>)}
-          </ul>
-        </div>
-
-        {/* Right */}
-        <div className="navbar-end flex items-center gap-2">
-          <div className="indicator">
-            <span className={`indicator-item badge badge-error badge-sm font-lato font-bold text-white ${cartCount === 0 ? "hidden" : ""}`}>{cartCount}</span>
-            <button className="btn btn-ghost btn-circle text-gray-700 hover:bg-green-50">
-              <FaShoppingCart size={19} />
-            </button>
-          </div>
-          <button className="btn hidden lg:flex text-white border-0 rounded-full px-6 font-lato font-bold text-sm" style={{ background: "linear-gradient(135deg,#e74c6f,#c0392b)" }}>
-            Order Now <FaArrowRight size={13} />
-          </button>
-          <button className="btn btn-ghost btn-circle lg:hidden" onClick={() => setMenuOpen(!menuOpen)}>
-            {menuOpen ? <FaTimes size={20} /> : <FaBars size={20} />}
-          </button>
-        </div>
-      </div>
+   
 
       {/* Mobile drawer */}
       {menuOpen && (

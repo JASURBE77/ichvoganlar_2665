@@ -13,11 +13,14 @@ import PartfolioSingle from './pages/PartfolioSingle.jsx';
 import BlogSingle from './pages/BlogSingle.jsx';
 import Licenses from './pages/Licenses.jsx';
 import QualityStandart from "./pages/QualityStandard.jsx"
+import NotFound from './pages/NotFound.jsx';
+import Team from './pages/Team.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element:<App />,
+    errorElement: <NotFound/>,
     children: [
       {
         path:"/",
@@ -48,8 +51,10 @@ const router = createBrowserRouter([
         element: <QualityStandart />
       },
       {
-        
+        path:"/teem",
+        element:<Team/>
       }
+
     ]
   },
 ]);
