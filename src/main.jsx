@@ -46,6 +46,9 @@ const router = createBrowserRouter([
       {
         path: "/quality",
         element: <QualityStandart />
+      },
+      {
+        
       }
     ]
   },

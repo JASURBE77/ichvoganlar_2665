@@ -63,18 +63,8 @@ export default function FoodLanding() {
   const cartCount = cart.length;
 
   return (
-    <div data-theme="light" >
+    <div>
   
-
-      {toast && (
-        <div className="toast toast-top toast-end z-[999]">
-          <div className="alert bg-green-700 text-white border-0 shadow-xl anim-pop font-lato text-sm">
-            <FaCheck size={14} />
-            <span><strong>{toast}</strong> added to cart!</span>
-          </div>
-        </div>
-      )}
-
       {/* ── NAVBAR ── */}
       <div className={`navbar fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-4 md:px-10 ${scrolled ? "bg-white/96 backdrop-blur-lg shadow-lg py-1" : "bg-transparent py-3"}`}>
         {/* Logo */}
