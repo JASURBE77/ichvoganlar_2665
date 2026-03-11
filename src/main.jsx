@@ -7,16 +7,24 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './pages/Home.jsx';
+import NotFound from './pages/NotFound.jsx';
+import QualityStandard from './pages/QualityStandard.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element:<App />,
+    errorElement: <NotFound/>,
     children: [
       {
         path:"/",
         element: <Home />
+      },
+      {
+        path:"/Quailtystandart",
+        element:<QualityStandard/>
       }
+
     ]
   },
 ]);
