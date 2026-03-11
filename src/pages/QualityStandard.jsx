@@ -1,4 +1,7 @@
 import React from 'react'
+import loyqol from './assets/loy-qol.png'
+import gullar from './assets/gullar.png'
+import tonqayagan from './assets/tonqaygan.png'
 
 const QualityStandard = () => {
     return (
