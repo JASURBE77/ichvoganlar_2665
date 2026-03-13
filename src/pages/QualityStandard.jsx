@@ -6,11 +6,11 @@ import tonqayagan from '../assets/tonqaygan.png'
 const QualityStandard = () => {
     return (
         <div>
-            <div className=" mx-auto max-w-[85%]  p-1">
+            <div className=" mx-auto max-w-[85%]  p-1 py-20 ">
                 <img
                     src={tonqayagan}
                     alt="top-image"
-                    className="w-[1400px] h-[742px] object-cover bg-gray-200"
+                    className="w-[1300px] h-[500px] object-cover bg-gray-200 "
                 />
             </div>
             <section className="max-w-[50%] mx-auto px-6 py-16 flex flex-col gap-10">
