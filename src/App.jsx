@@ -7,15 +7,14 @@ import Xblog from "./pages/Xblog";
 import Team from "./pages/Team";
 import Footer from "./components/Footer";
 
-const App = () => {
+function App() {
   return (
-    <div>
+    <div> 
       <Header />
-      <Outlet />
-      <Footer/>
+        <Outlet />
+      <Footer />
     </div>
   );
-};
-
+}
 
 export default App;
