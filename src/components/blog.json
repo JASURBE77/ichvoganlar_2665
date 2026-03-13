@@ -1,34 +1,154 @@
 {
-    "cards": [
-        {
-            "id": 1,
-            "title": "The Benefits of Vitamin D & How to Get It",
-            "description": "Simply dummy text of the printing and typesetting industry."
-        },
-        {
-            "id": 2,
-            "title": "Healthy Eating Tips for Everyday Life",
-            "description": "Lorem Ipsum is simply dummy text of the printing industry."
-        },
-        {
-            "id": 3,
-            "title": "Why Green Vegetables Are Important",
-            "description": "Dummy text used in the typesetting and printing industry."
-        },
-        {
-            "id": 4,
-            "title": "Simple Ways to Improve Your Diet",
-            "description": "Lorem Ipsum has been the industry's standard dummy text."
-        },
-        {
-            "id": 5,
-            "title": "How to Stay Healthy Naturally",
-            "description": "It is a long established fact that a reader will be distracted."
-        },
-        {
-            "id": 6,
-            "title": "Top Nutrition Habits You Should Know",
-            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
-        }
-    ]
+  "cards": [
+    {
+      "id": 1,
+      "author": "Rachi Card",
+      "date": "January 5, 2024",
+      "title": "The Benefits of Vitamin D & How to Get It",
+      "description": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.",
+      "fullDescription": "Publishing and typesetting industry has been relying on Lorem Ipsum since the 1500s when an unknown printer scrambled a galley of type. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker.",
+      "preferredTitle": "Preferred Form of Vitamin D?",
+      "preferredDescription": "Among researchers, there is a debate about which form of vitamin D is most effective for the human body. The preferred form of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, making it look like readable English.",
+      "preferredList": [
+        "Publishing packages and web page editors now use their default",
+        "Lorem Ipsum content here making it look like the readable English",
+        "Perhaps a simple page-by-page layout in their default"
+      ],
+      "quote": "The first rule of any organic used in business is that nature applied to an efficient operation will magnify the efficiency. The second is that organic applied to an inefficient operation will magnify the chaos.",
+      "makeTitle": "Make perfect organic product with us",
+      "makeDescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here making it look like readable English.",
+      "makeList": [
+        "Publishing packages and web page editors now use as their default",
+        "Content here making it look like readable English",
+        "Packages and web page editors now use as their default",
+        "More recently with desktop publishing software like Aldus PageMaker"
+      ],
+      "img": "https://as1.ftcdn.net/jpg/04/39/02/46/1000_F_439024603_pHjWAZrHOojIFLykqoG5YBv65zcomlMS.jpg"
+    },
+    {
+      "id": 2,
+      "author": "Sara Lee",
+      "date": "February 10, 2024",
+      "title": "Healthy Eating Tips for Everyday Life",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "fullDescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here making it look like readable English.",
+      "preferredTitle": "Why Healthy Eating Matters?",
+      "preferredDescription": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text. The key to healthy eating is balance, variety, and moderation in every meal you consume daily.",
+      "preferredList": [
+        "Eat more fruits and vegetables every single day",
+        "Reduce sugar and processed food intake significantly",
+        "Drink at least eight glasses of water daily"
+      ],
+      "quote": "Eating healthy is not about strict diets or depriving yourself. It is about feeling great, having more energy, and improving your health.",
+      "makeTitle": "Build your healthy eating routine today",
+      "makeDescription": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable.",
+      "makeList": [
+        "Start your day with a nutritious breakfast every morning",
+        "Choose whole grains over refined carbohydrates always",
+        "Include lean protein in each of your meals",
+        "Snack on nuts and fruits instead of chips"
+      ],
+      "img": "https://images-prod.healthline.com/hlcmsresource/images/AN_images/tomatoes-1296x728-feature.jpg"
+    },
+    {
+      "id": 3,
+      "author": "James Park",
+      "date": "March 3, 2024",
+      "title": "Why Green Vegetables Are Important",
+      "description": "Dummy text used in the typesetting and printing industry for centuries.",
+      "fullDescription": "Green vegetables are among the most nutrient-dense foods on the planet. They provide essential vitamins, minerals, and fiber that support overall health and reduce the risk of chronic diseases. Incorporating them into your daily meals is one of the best decisions you can make.",
+      "preferredTitle": "Best Green Vegetables to Eat Daily?",
+      "preferredDescription": "Spinach, broccoli, kale, and peas are among the top recommended green vegetables. Each of them offers unique health benefits and can be easily added to salads, smoothies, soups, and main dishes without much effort.",
+      "preferredList": [
+        "Spinach is rich in iron and supports healthy blood",
+        "Broccoli contains powerful antioxidants and vitamin C",
+        "Kale is one of the most nutrient-dense foods available"
+      ],
+      "quote": "Let food be thy medicine and medicine be thy food. Green vegetables are the foundation of a healthy and long life.",
+      "makeTitle": "Add more greens to your daily plate",
+      "makeDescription": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      "makeList": [
+        "Add spinach to your morning smoothie for extra nutrients",
+        "Steam broccoli lightly to preserve all its vitamins",
+        "Use kale as a base for your salads instead of lettuce",
+        "Snack on celery and cucumber sticks throughout the day"
+      ],
+      "img": "https://cdn.beta.qalampir.uz/uploads/RG/f_CTwYUhTwGreCXKjHDJChc8j7bLmzb3.jpg"
+    },
+    {
+      "id": 4,
+      "author": "Ali Karimov",
+      "date": "April 15, 2024",
+      "title": "Simple Ways to Improve Your Diet",
+      "description": "Lorem Ipsum has been the industrys standard dummy text since the 1500s.",
+      "fullDescription": "Improving your diet does not have to be complicated or expensive. Small, consistent changes in your daily eating habits can lead to significant improvements in your overall health, energy levels, and mood over time.",
+      "preferredTitle": "Easy Diet Improvements to Start Today?",
+      "preferredDescription": "Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words. The easiest way to improve your diet is to start with small swaps and build healthier habits gradually over time.",
+      "preferredList": [
+        "Swap white bread for whole grain bread daily",
+        "Replace sugary drinks with water or herbal tea",
+        "Cook at home more often than eating outside"
+      ],
+      "quote": "You do not have to eat less, you just have to eat right. Simple changes in your diet can transform your entire life and wellbeing.",
+      "makeTitle": "Transform your health with better food choices",
+      "makeDescription": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Small improvements in your eating habits can lead to remarkable changes in your health and energy levels.",
+      "makeList": [
+        "Plan your weekly meals every Sunday evening ahead",
+        "Keep healthy snacks ready to avoid junk food temptation",
+        "Read nutrition labels carefully before buying any product",
+        "Eat slowly and mindfully to enjoy every single meal"
+      ],
+      "img": "https://media.gettyimages.com/id/498315707/photo/rooting-out-the-problem.jpg?s=612x612&w=gi&k=20&c=PTvZ8aE_akZVkXe2YzBMUyeXWRNv0Dx9YD3DJUV32NU="
+    },
+    {
+      "id": 5,
+      "author": "Nora Smith",
+      "date": "May 20, 2024",
+      "title": "How to Stay Healthy Naturally",
+      "description": "It is a long established fact that a reader will be distracted by the content.",
+      "fullDescription": "Staying healthy naturally means making lifestyle choices that support your body and mind without relying heavily on medications. It includes eating well, exercising regularly, getting enough sleep, and managing stress effectively every single day.",
+      "preferredTitle": "Natural Ways to Boost Your Health?",
+      "preferredDescription": "Natural health practices have been used for thousands of years across different cultures. Regular exercise, good nutrition, quality sleep, and stress management are the four pillars of a naturally healthy and fulfilling lifestyle.",
+      "preferredList": [
+        "Exercise at least thirty minutes every single day",
+        "Get seven to nine hours of quality sleep nightly",
+        "Practice mindfulness or meditation to reduce daily stress"
+      ],
+      "quote": "Natural health is not a destination but a daily journey. Every small healthy choice you make today shapes your tomorrow.",
+      "makeTitle": "Live a naturally healthy life starting now",
+      "makeDescription": "It has survived not only five centuries but also the leap into electronic typesetting, remaining essentially unchanged. Natural living is about harmony between your body, mind, and the environment around you.",
+      "makeList": [
+        "Spend time outdoors in fresh air and sunlight daily",
+        "Drink herbal teas and natural infusions regularly",
+        "Avoid processed foods and artificial additives completely",
+        "Practice deep breathing exercises every morning and evening"
+      ],
+      "img": "https://spvsoils.com/wp-content/uploads/2018/10/girlgarden.jpg"
+    },
+    {
+      "id": 6,
+      "author": "John Doe",
+      "date": "June 8, 2024",
+      "title": "Top Nutrition Habits You Should Know",
+      "description": "Contrary to popular belief, Lorem Ipsum is not simply random text at all.",
+      "fullDescription": "Good nutrition habits are the cornerstone of a healthy lifestyle. Understanding what your body needs and when to provide it can make a dramatic difference in your energy, focus, mood, and long-term health outcomes throughout your entire life.",
+      "preferredTitle": "Which Nutrition Habits Are Most Important?",
+      "preferredDescription": "Nutrition experts agree that consistency is more important than perfection when it comes to healthy eating. Building simple daily habits around food choices, meal timing, and hydration can create lasting positive changes in your overall wellbeing.",
+      "preferredList": [
+        "Never skip breakfast as it fuels your entire morning",
+        "Eat smaller meals more frequently throughout the day",
+        "Always include protein in every meal you consume"
+      ],
+      "quote": "Good nutrition is not about being perfect every day. It is about making better choices more often and building habits that last a lifetime.",
+      "makeTitle": "Build lasting nutrition habits for better health",
+      "makeDescription": "Many desktop publishing packages and web page editors use Lorem Ipsum as default model text. Understanding the basics of nutrition can help you make smarter food choices every day and improve your quality of life significantly.",
+      "makeList": [
+        "Track your daily food intake to stay aware always",
+        "Learn to read and understand nutrition labels properly",
+        "Balance macronutrients in every meal you prepare",
+        "Stay consistently hydrated throughout your entire day"
+      ],
+      "img": "https://storage.kun.uz/source/4/jnwOhaQxq9BlOjnqSdxNXcWcr4d_jcw5.jpg"
+    }
+  ]
 }

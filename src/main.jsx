@@ -15,6 +15,7 @@ import Licenses from './pages/Licenses.jsx';
 import QualityStandart from "./pages/QualityStandard.jsx"
 import NotFound from './pages/NotFound.jsx';
 import Team from './pages/Team.jsx';
+import Xblog from './pages/Xblog.jsx'
 
 const router = createBrowserRouter([
   {
@@ -39,7 +40,11 @@ const router = createBrowserRouter([
         element: <PartfolioSingle />
       },
       {
-        path: "/blogsingle",
+        path:"/blog",
+        element:<Xblog/>
+      },
+      {
+        path: "/blogsingle/:id",
         element: <BlogSingle />
       },
       {
