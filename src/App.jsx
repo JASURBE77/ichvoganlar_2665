@@ -1,11 +1,8 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-import Header from './components/Header'
+import { Outlet } from "react-router-dom"
 
-const App = () => {
+function App() {
   return (
     <div>
-      <Header />
       <Outlet />
     </div>
   )

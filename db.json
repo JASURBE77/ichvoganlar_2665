@@ -1,0 +1,100 @@
+{
+  "peoples": [
+    {
+      "id": "1",
+      "name": "Ismoil Toxtaxojaev",
+      "email": "ismoil@example.com",
+      "password": "pass1234"
+    },
+    {
+      "id": "2",
+      "name": "Ali Valiyev",
+      "email": "ali@example.com",
+      "password": "abc12345"
+    },
+    {
+      "id": "3",
+      "name": "Nodira Karimova",
+      "email": "nodira@example.com",
+      "password": "qwerty12"
+    },
+    {
+      "id": "4",
+      "name": "Sardorbek Rustamov",
+      "email": "sardor@example.com",
+      "password": "sardor2026"
+    },
+    {
+      "id": "5",
+      "name": "Gulbahor Yusupova",
+      "email": "gulbahor@example.com",
+      "password": "guly7890"
+    },
+    {
+      "id": "6",
+      "name": "Jasurbek Tursunov",
+      "email": "jasur@example.com",
+      "password": "jasur321"
+    },
+    {
+      "id": "7",
+      "name": "Malika Sobirova",
+      "email": "malika@example.com",
+      "password": "malika555"
+    },
+    {
+      "id": "8",
+      "name": "Bekzod Rahmatov",
+      "email": "bekzod@example.com",
+      "password": "bek12345"
+    },
+    {
+      "id": "9",
+      "name": "Dildora Azimova",
+      "email": "dildora@example.com",
+      "password": "dildora98"
+    },
+    {
+      "id": "10",
+      "name": "Oybek Mirzaev",
+      "email": "oybek@example.com",
+      "password": "   "
+    },
+    {
+      "id": "d405",
+      "name": "islom",
+      "email": "ismoiltoxtaxojaev26@gmail.com",
+      "password": "islom1210"
+    },
+    {
+      "id": "720c",
+      "name": "islom",
+      "email": "ismoil@example.com",
+      "password": "islomjon lut"
+    },
+    {
+      "id": "0fd2",
+      "name": "dfbvn",
+      "email": "ismoil@example.com",
+      "password": "12345"
+    },
+    {
+      "id": "597c",
+      "name": "islom",
+      "email": "oybek@exampl.com",
+      "password": "islom"
+    },
+    {
+      "id": "91a2",
+      "name": "islom",
+      "email": "oybek@exapl.com",
+      "password": "1213"
+    },
+    {
+      "id": "fa4d",
+      "name": "ilhom",
+      "email": "oybek@expl.com",
+      "password": "1234567"
+    }
+  ]
+}
