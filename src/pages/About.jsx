@@ -6,7 +6,7 @@ import AboutSec4 from '../components/AboutSec4'
 
 const About = () => {
   return (
-    <div>
+    <div className='mt-10'>
         <AboutSec1/>
         <AboutSec2/>
         <AboutSec3/>

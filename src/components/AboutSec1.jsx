@@ -2,6 +2,7 @@ import React from "react";
 import img1 from "../assets/Image (4).png";
 import { FaTruck } from "react-icons/fa";
 import { VscArrowSmallRight } from "react-icons/vsc";
+import { Link } from "react-router-dom";
 const AboutSec1 = () => {
   return (
     <div>
@@ -33,7 +34,9 @@ const AboutSec1 = () => {
               <FaTruck />
               <p className="text-[#274C5B] text-[20px] font-semibold">No growth hormones are used</p>
             </div>
+            <Link to={"/litzensatsiya"}>
             <button className="w-[200px] h-[60px] rounded-[16px] text-white text-[20px] font-medium bg-[#274C5B] flex items-center justify-center gap-2">Explore More <VscArrowSmallRight /></button>
+            </Link>
           </div>
         </div>
       </div>

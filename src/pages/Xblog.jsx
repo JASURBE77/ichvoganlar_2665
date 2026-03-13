@@ -6,7 +6,7 @@ const Cards = () => {
 
     const getCards = async () => {
         try {
-            const res = await axios.get("http://localhost:3000/cards");
+            const res = await axios.get("http://localhost:3001/cards");
             setCards(res.data);
         } catch (error) {
             console.error("Ошибка при получении данных:", error);

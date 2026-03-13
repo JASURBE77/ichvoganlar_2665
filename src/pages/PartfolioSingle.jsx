@@ -6,7 +6,8 @@ import carrot from "../assets/Image (13).png";
 const PartfolioSingle = () => {
   const { id } = useParams();
   const [portfolio, setpartfolio] = useState(null);
-
+  console.log(portfolio);
+  
   const getProduct = async () => {
     try {
       const res = await axios.get(`http://localhost:3001/portfolio/${id}`);
@@ -26,11 +27,11 @@ const PartfolioSingle = () => {
 
   return (
     <div>
-      <div className="w-full h-[450px] overflow-hidden">
+      <div className="w-full h-[600px] mt-20">
         <img
-          src={portfolio?.image}
+          src={portfolio.image}
           alt=""
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover rounded-3xl"
         />
       </div>
 

@@ -26,7 +26,7 @@ const Partfolio = () => {
               <div key={e.id}>
                 <Link to={`/partfolioSingle/${e.id}`}>
                 <div className="w-[451px] h-[503px] rounded-3xl hover:shadow-lg px-5 py-5 ">
-                    <img className="rounded-3xl" src={e.image} alt="" />
+                    <img className=" w-md h-90 rounded-3xl" src={e?.image} alt="" />
                     <h2 className="font-bold text-[#274C5B] text-[25px]"> {e.title}</h2>
                     <p className="italic text-[#7EB693]">{e.category}</p>
                 </div>

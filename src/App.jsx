@@ -5,15 +5,14 @@ import Header from "./components/Header";
 import Xshop from "./pages/Xshop";
 import Xblog from "./pages/Xblog";
 import Team from "./pages/Team";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <div>
       <Header />
       <Outlet />
-      <Xshop />
-      <Xblog/>
-      <Team />
+      <Footer/>
     </div>
   );
 };

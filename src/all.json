@@ -1,5 +1,129 @@
 {
-    "products": [
+  "cards": [
+    {
+      "id": 1,
+      "title": "The Benefits of Vitamin D & How to Get It",
+      "description": "Simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": 2,
+      "title": "Healthy Eating Tips for Everyday Life",
+      "description": "Lorem Ipsum is simply dummy text of the printing industry."
+    },
+    {
+      "id": 3,
+      "title": "Why Green Vegetables Are Important",
+      "description": "Dummy text used in the typesetting and printing industry."
+    },
+    {
+      "id": 4,
+      "title": "Simple Ways to Improve Your Diet",
+      "description": "Lorem Ipsum has been the industry's standard dummy text."
+    },
+    {
+      "id": 5,
+      "title": "How to Stay Healthy Naturally",
+      "description": "It is a long established fact that a reader will be distracted."
+    },
+    {
+      "id": 6,
+      "title": "Top Nutrition Habits You Should Know",
+      "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "Green & Tasty Lemon",
+      "category": "Farmer",
+      "date": "December 4, 2022",
+      "client": "Alelo Marchi",
+      "tags": ["Agriculture", "Eco"],
+      "service": "Organic Products",
+      "image": "https://tiimg.tistatic.com/fp/1/007/709/round-shape-commonly-cultivated-medium-size-sour-tasty-green-lemon-003.jpg",
+      "bgColor": "#D8C5E8",
+      "aboutTheFarm": "It is a long established fact that a reader will be distracted by the readable content of a page when looking a layout.",
+      "howToFarm": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.",
+      "conclusion": "Various versions have evolved over the years.",
+      "detailImage": "https://images.unsplash.com/photo-1582284540020-8acbe03f4924"
+    },
+    {
+      "id": 2,
+      "title": "Organic Carrot",
+      "category": "Farmer",
+      "date": "December 4, 2022",
+      "client": "Alelo Marchi",
+      "tags": ["Agriculture", "Eco"],
+      "service": "Organic Products",
+      "image": "https://images.unsplash.com/photo-1447175008436-170170753d52",
+      "bgColor": "#F4A460",
+      "aboutTheFarm": "Carrots are widely grown root vegetables known for their bright orange color and sweet taste.",
+      "howToFarm": "Carrots grow best in loose, sandy soil and require plenty of sunlight and regular watering.",
+      "conclusion": "Organic carrot farming helps maintain soil fertility and produces healthier vegetables.",
+      "detailImage": "https://images.unsplash.com/photo-1518977676601-b53f82aba655"
+    },
+    {
+      "id": 3,
+      "title": "Organic Betel Leaf",
+      "category": "Leaf",
+      "date": "December 4, 2022",
+      "client": "Alelo Marchi",
+      "tags": ["Agriculture", "Eco"],
+      "service": "Organic Products",
+      "image": "https://images.unsplash.com/photo-1592928302636-c83cf1f4a9c2",
+      "bgColor": "#7ED957",
+      "aboutTheFarm": "Betel leaves are commonly used in traditional medicine and cultural practices.",
+      "howToFarm": "They require warm climate, humid conditions, and support structures for climbing.",
+      "conclusion": "Organic cultivation ensures high-quality leaves without harmful chemicals.",
+      "detailImage": "https://images.unsplash.com/photo-1604908554165-6a4c9a88bfa7"
+    },
+    {
+      "id": 4,
+      "title": "Fresh Organic Tomato",
+      "category": "Vegetable",
+      "date": "December 4, 2022",
+      "client": "Alelo Marchi",
+      "tags": ["Agriculture", "Eco"],
+      "service": "Organic Products",
+      "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce",
+      "bgColor": "#FF6B6B",
+      "aboutTheFarm": "Tomatoes are one of the most popular vegetables grown worldwide.",
+      "howToFarm": "Tomatoes need warm weather, fertile soil, and consistent watering.",
+      "conclusion": "Organic tomatoes are healthier and contain more natural nutrients.",
+      "detailImage": "https://images.unsplash.com/photo-1506806732259-39c2d0268443"
+    },
+    {
+      "id": 5,
+      "title": "Organic Cabbage",
+      "category": "Vegetable",
+      "date": "December 4, 2022",
+      "client": "Alelo Marchi",
+      "tags": ["Agriculture", "Eco"],
+      "service": "Organic Products",
+      "image": "https://images.unsplash.com/photo-1604908176997-4312c3c7e21a",
+      "bgColor": "#9FE2BF",
+      "aboutTheFarm": "Cabbage is a leafy green vegetable rich in vitamins and minerals.",
+      "howToFarm": "It grows best in cool climates and nutrient-rich soil.",
+      "conclusion": "Organic cabbage farming reduces chemical exposure and improves food quality.",
+      "detailImage": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2"
+    },
+    {
+      "id": 6,
+      "title": "Organic Strawberry",
+      "category": "Fruit",
+      "date": "December 4, 2022",
+      "client": "Alelo Marchi",
+      "tags": ["Agriculture", "Eco"],
+      "service": "Organic Products",
+      "image": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6",
+      "bgColor": "#FFB6C1",
+      "aboutTheFarm": "Strawberries are sweet fruits loved all over the world.",
+      "howToFarm": "They require sunny areas, fertile soil, and proper irrigation.",
+      "conclusion": "Organic strawberries provide better taste and nutritional value.",
+      "detailImage": "https://images.unsplash.com/photo-1439127989242-c3749a012eac"
+    }
+  ],
+   "products": [
         {
             "id": 1,
             "category": "fruit",

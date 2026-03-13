@@ -15,16 +15,18 @@ import Licenses from './pages/Licenses.jsx';
 import QualityStandart from "./pages/QualityStandard.jsx"
 import NotFound from './pages/NotFound.jsx';
 import Team from './pages/Team.jsx';
+import HomeSec3 from './components/HomeSec3.jsx';
+import Xshop from "../src/pages/Xshop.jsx";
+import Xblog from "../src/pages/Xblog.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element:<App />,
-    errorElement: <NotFound/>,
     children: [
       {
         path:"/",
-        element: <Home />
+        element: <HomeSec3 />
       },
       {
         path:"/about",
@@ -53,6 +55,14 @@ const router = createBrowserRouter([
       {
         path:"/teem",
         element:<Team/>
+      },
+        {
+        path:"/shop",
+        element:<Xshop/>
+      },
+        {
+        path:"/blog",
+        element:<Xblog/>
       }
 
     ]
